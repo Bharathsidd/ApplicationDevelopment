@@ -1,0 +1,24 @@
+.top
+{
+    align-items: center;
+    background-color: white;
+}
+.top2
+{
+    font-family: sans-serif;
+    font-weight: 500;
+}
+.shoes
+{
+    text-align: left;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.shoes h2{
+    margin-left: 40px;
+}
+.top2 button{
+    width: 80px;
+    height: 40px;
+    border-radius: 20px;
+}

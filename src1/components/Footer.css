@@ -1,0 +1,72 @@
+/* src/Footer.css */
+
+.footer {
+  background-color: #f9f9f9;
+  padding: 20px 40px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  border-top: 1px solid #ddd;
+}
+
+.footer-section {
+  flex: 1;
+  margin: 10px 20px;
+}
+
+.footer-section h4 {
+  margin-bottom: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: left;
+  font-family: sans-serif;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-section ul li {
+  margin-bottom: 8px;
+  text-align: left;
+}
+
+.footer-section ul li a {
+  text-decoration: none;
+  font-family: sans-serif;
+  color: #939393;
+  font-size: 14px;
+  text-align: left;
+}
+
+.footer-section ul li a:hover {
+  text-decoration: underline;
+}
+
+.footer-bottom {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 20px;
+  border-top: 1px solid #ddd;
+  padding-top: 20px;
+}
+
+.footer-bottom p {
+  margin: 0;
+  font-size: 14px;
+}
+
+.footer-links a {
+  margin: 0 10px;
+  font-size: 14px;
+  text-decoration: none;
+  color: #737373;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+}
